@@ -27,3 +27,7 @@ body {
     font-size: 35px;
     margin: .2em .2em .2em 0em;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+}
