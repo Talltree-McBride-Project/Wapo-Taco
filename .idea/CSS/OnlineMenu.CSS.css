@@ -27,9 +27,28 @@ body {
     font-size: 35px;
     margin: .2em .2em .2em 0em;
 }
-#menu {
+.menu {
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    /*font-size: 60px;*/
     padding: 0em;
+}
+
+li{
+    font-size: x-large;
+    padding-top: 30px;
+    margin: 0 25px;
+}
+#nav-button{
+    padding-top: 0px;
+}
+.nav-button{
+    margin: 10px 0;
+    white-space:nowrap
+}
+
+.jumbotron{
+    background-color: white;
+    text-align: center;
+    margin: 25px
 }
