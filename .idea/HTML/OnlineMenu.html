@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../JavaScript/Wapo-Taco.js"></script>
     <link rel="stylesheet" href="../CSS/OnlineMenu.CSS.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -14,14 +13,13 @@
 <div class="sticky-xl-top" id="header">
     <i class="fab fa-facebook-f" id="fb" href="#"></i>
     <i class="fab fa-instagram" id="insta" href="#"></i>
-    <a id="menu">Menu</a>
     <a id="address">7907 W Loop 1604 N #101, San Antonio, TX 78254</a>
 </div>
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Wapo Taco</a>
+        <a class="navbar-brand" href="index.html"><img src="../img/WapoTacoLogo.png" height="100" width="100"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Online Catering</a>
@@ -40,7 +38,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Our Story</a>
                 </li>
+                <li class="nav-item" id="nav-button">
+                    <div class="nav-button">
+                        <a href="https://www.ubereats.com/san-antonio/food-delivery/wapo-taco/H4ftgs-OT6eLE2CbHoIw0Q?utm_source=AdWords_NonBrand&utm_campaign=CM2030991-search-google-nonbrand_1_-99_US-National_e_web_acq_cpc_en_10_Restaurant_Exact_wapo%20taco_kwd-905647840228_499730869909_119281236138_e_c&campaign_id=11869174553&adg_id=119281236138&fi_id=&match=e&net=g&dev=c&dev_m=&ad_id=499730869909&cre=499730869909&kwid=kwd-905647840228&kw=wapo%20taco&placement=&tar=&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPVQljClGvdLBtj2aRFUl4lj-w6D4nwC2vmVw23GiYrYqYlkBCCqdM4aAnowEALw_wcB&gclsrc=aw.ds">
+                            <button type="button" class="btn btn-squared-default btn-success">Uber Eats</button>
+                        </a>
+                    </div>
+                    <div class="nav-button">
+                        <a href="https://www.grubhub.com/restaurant/wapo-taco-7907-west-loop-1604-north-san-antonio/1480966?utm_source=google&utm_medium=cpc&utm_campaign=National%20%7C%20All%20%7C%20PPA%20%7C%20PnP%20%7C%2019&utm_term=f%3Aplacesheet%3Afeature_id_fprint%3D2768075154441842460&utm_content=acct_id-5660136247%3Acamp_id-10390010543%3Aadgroup_id-122238743027%3Akwd-729447673437%3Acreative_id-505850705033%3Aext_id-163819810184%3Amatchtype_id-%3Anetwork-g%3Adevice-c%3Aloc_interest-%3Aloc_physical-9028053&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPWnx2T-PpLpRX4bQsbt-mzmhvCmN-RW3-GjcuoDz5BujBllA-tMmXEaAs4OEALw_wcB&gclsrc=aw.ds">
+                            <button type="button" class="btn btn-info btn-info">Grub Hub</button>
+                        </a>
+                    </div>
+
+                </li>
             </ul>
+
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" id="button" type="submit">Search</button>
@@ -48,63 +60,120 @@
         </div>
     </div>
 </nav>
-<div class="container col-12 row justify-content-center">
-    <div class="card m-1" style="width: 18rem;">
-        <img src="" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+<div class="container col-12 row justify-content-center" >
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="" class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="..." class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="..." class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="..." class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="" class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="..." class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card m-1" style="width: 18rem;">-->
+<!--        <img src="..." class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="card" style="width: 18rem;">-->
+<!--        <img src="..." class="card-img-top" alt="...">-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's-->
+<!--                content.</p>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="jumbotron jumbotron-fluid col-12 row">
+        <h2>Breakfast Tacos</h2>
     </div>
-    <div class="card m-1" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <div id="breakfastTacos" class="container col-12 row justify-content-center menu">
+
     </div>
-    <div class="card m-1" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <div class="jumbotron jumbotron-fluid col-12 row">
+        <h2>Breakfast Burritos & Tortas</h2>
     </div>
-    <div class="card m-1" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <div id="breakfastBurritos" class="container col-12 row justify-content-center">
     </div>
-    <div class="card m-1" style="width: 18rem;">
-        <img src="" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <div class="jumbotron jumbotron-fluid col-12 row">
+        <h2>Desayunos</h2>
     </div>
-    <div class="card m-1" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <div id="desayunos" class="container col-12 row justify-content-center">
+
     </div>
-    <div class="card m-1" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <h2>Appetizers</h2>
+    <div id="appetizers" class="container col-12 row justify-content-center">
+
     </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-        </div>
+    <h2>The Meat CHoices</h2>
+    <div id="meatChoices" class="container col-12 row justify-content-center">
+
     </div>
+    <h2>The Tacos</h2>
+    <div id="tacos" class="container col-12 row justify-content-center">
+
+    </div>
+    <h2></h2>
+    <div id="" class="container col-12 row justify-content-center">
+
+    </div>
+    <h2>Burritos and More</h2>
+    <div id="burritos" class="container col-12 row justify-content-center">
+
+    </div>
+    <h2>Platillos</h2>
+    <div id="platillos" class="container col-12 row justify-content-center">
+
+    </div>
+    <h2>Enchiladas</h2>
+    <div id="enchiladas" class="container col-12 row justify-content-center">
+
+    </div>
+    <h2>Under the Sea</h2>
+    <div id="underTheSea" class="container col-12 row justify-content-center">
+
+    </div>
+    <h2>Weekends Only</h2>
+    <div id="weekendsOnly" class="container col-12 row justify-content-center">
+
+    </div>
+
 </div>
+<script src="../JavaScript/Wapo-Taco.js"></script>
+
 </body>
+
 </html>
